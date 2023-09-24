@@ -63,16 +63,17 @@
   .background_img {
     width: 100vw;
     background-size: cover;
-    height: 82vh;
+    height: 100vh;
+    background-position: center top;
   }
 }
 
 
-@media (max-width: 3o90px) {
+@media (max-width: 390px) {
 
   .background_img {
     width: 100vw;
     background-size: cover;
-    height: 86vh;
+    height: 100vh;
   }
 }
