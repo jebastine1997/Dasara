@@ -23,7 +23,7 @@
 
 .pag1_text1box {
   display: flex;
-  width: 590px;
+  width: 570px;
   padding-top: 34%;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +36,7 @@
   color: #f95a4c;
   font-family: "Lato", sans-serif;
   text-align: center;
-  padding: 10px;
+  
   padding-bottom: 0px;
 }
 
@@ -66,6 +66,7 @@
   box-shadow: 5px 4px 5px 1px #00000047;
   color: #ffffff;
   text-shadow: 6px 3px 6px #0000006e;
+  border: none;
   border-left: 1px solid black;
   background: rgb(80, 11, 102);
   background: linear-gradient(
@@ -141,11 +142,7 @@
   }
 }
 
-@media (max-width: 691px) {
-}
-
-/* applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 550.98px) {
+@media (max-width: 540.98px) {
   .main-sec {
     width: 100%;
     height: auto;
@@ -159,14 +156,14 @@
   }
 
   .container {
-    max-width: 390px;
+    max-width: 340px;
   }
   .pag1_text1box {
     width: 100%;
-    padding-top: 39%;
+    padding-top: 40%;
   }
   .pag1_text1 {
-    font-size: 21px;
+    font-size: 20px;
   }
 
   #whitedot {
@@ -179,14 +176,66 @@
   }
 
   .letsgobtn {
-    margin-top: 18px;
-    width: 178px;
-    font-size: 22px;
-    height: 54px;
+    margin-top: 15px;
+    width: 130px;
+    font-size: 16px;
+    height: 41px;
 }
 
 .bi-arrow-right {
-  font-size: 22px !important;
+  font-size: 18px !important;
+  font-weight: 100 !important;
+  -webkit-text-stroke: 0px;
+  padding-left: 14px;
+}
+
+
+  
+}
+
+/* applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 520px) {
+  .main-sec {
+    width: 100%;
+    height: auto;
+  }
+
+  .background_img {
+    width: 100vw;
+    background-size: contain;
+    height: 100vh;
+    background-position: center top;
+  }
+
+  .container {
+    max-width: 340px;
+  }
+  .pag1_text1box {
+    width: 100%;
+    padding-top: 55%;
+  }
+  .pag1_text1 {
+    font-size: 20px;
+  }
+
+  #whitedot {
+    padding-top: 24px;
+    width: 257px;
+  }
+
+  .dasaralgo {
+    width: 100%;
+  }
+
+  .letsgobtn {
+    margin-top: 18px;
+    width: 163px;
+    font-size: 19px;
+    height: 46px;
+}
+
+.bi-arrow-right {
+  font-size: 20px !important;
   font-weight: 100 !important;
   -webkit-text-stroke: 0px;
   padding-left: 15px;
