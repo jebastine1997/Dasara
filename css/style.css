@@ -1,49 +1,78 @@
-
 * {
-    margin: 0;
-    padding: 0;
-  }
-
-  
-  .main-sec
-  {
-    width: 750px;
-    margin: auto;
-  }
-
-  .background_img
-  {
-    background-image: url(../images/background_main.jpg);
-    background-repeat: no-repeat;
-    height: 1333px;
-    width: 100%;
-    margin: auto;
-    background-size: cover;
-    background-position: center center;
-  }
-
-  
-.test
-{
-    font-size: 27px;
-    color: red;
-    padding-top: 40px;
-    text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
+.main-sec {
+  width: 750px;
+  margin: auto;
+}
 
+.background_img {
+  background-image: url(../images/background_main.jpg);
+  background-repeat: no-repeat;
+  height: 1333px;
+  width: 100%;
+  margin: auto;
+  background-size: cover;
+  background-position: center center;
+}
 
-@media (max-width: 768px) { 
-    .main-sec
-  {
+.test {
+  font-size: 27px;
+  color: red;
+  padding-top: 40px;
+  text-align: center;
+}
+
+/* applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+ 
+}
+
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .background_img {
+    background-size: cover;
+  }
+ 
+}
+
+/* applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 550.98px) {
+  .main-sec {
     width: 100%;
     height: auto;
   }
-   
-    .background_img
-    {
-        width: 100vw;
-        height: 100vh;
-    }
 
- }
+  .background_img {
+    width: 100vw;
+    background-size: contain;
+    height: 100vh;
+  }
+}
+
+
+@media (max-width: 450px) {
+
+  .background_img {
+    width: 100vw;
+    background-size: cover;
+    height: 82vh;
+  }
+}
+
+
+@media (max-width: 3o90px) {
+
+  .background_img {
+    width: 100vw;
+    background-size: cover;
+    height: 86vh;
+  }
+}
