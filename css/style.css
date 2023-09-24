@@ -62,7 +62,7 @@
 
   .background_img {
     width: 100vw;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
     background-position: center top;
   }
@@ -73,7 +73,7 @@
 
   .background_img {
     width: 100vw;
-    background-size: cover;
+    background-size: contain;
     height: 100vh;
   }
 }
